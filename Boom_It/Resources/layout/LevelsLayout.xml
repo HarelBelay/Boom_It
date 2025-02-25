@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layoutDirection="ltr"
+    >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="levels"
+        android:layout_marginLeft="130dp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+        
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="130dp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@android:color/white"
+        android:id="@+id/tv_username"
+        />      
+
+     <ImageButton
+            android:layout_width="138.5dp"
+            android:layout_height="157.0dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/level3"
+            android:background="@drawable/earth3"
+        />   
+
+      <ImageButton
+            android:layout_width="138.5dp"
+            android:layout_height="157.0dp"
+            android:layout_marginLeft="130dp"
+            android:id="@+id/level2"
+            android:background="@drawable/venus2"
+
+        />  
+
+       <ImageButton
+            android:layout_width="138.5dp"
+            android:layout_height="157.0dp"
+            android:layout_marginLeft="130dp"
+            android:id="@+id/level1"
+            android:background="@drawable/mercury1"
+
+       />
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Top 10"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="70sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ff4682b4"
+        android:textStyle="bold"
+        android:id="@+id/btn_score"
+        />
+ 
+    <ImageButton
+        android:layout_width="62.5dp"
+        android:layout_height="67.5dp"
+        android:background="@drawable/exit"
+        android:backgroundTint="#ff4682b4"
+        android:id="@+id/exit"
+        android:layout_marginTop="60sp"
+        />
+    
+</LinearLayout>

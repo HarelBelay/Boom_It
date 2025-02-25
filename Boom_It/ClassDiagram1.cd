@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Boom_It.BoardGame" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2nkPkt4gBICICwVwACE+gMUTNAULkABEimgGaCACpko=</HashCode>
+      <FileName>BoardGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.BoardGameActivity" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAAAAAAgAEAAAAAgAACAAAAAAAEAAAhAAAAg=</HashCode>
+      <FileName>BoardGameActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.Broadcast_Receiver" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Broadcast_Receiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.Instructions" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instructions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.LevelsActivity" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAIAAAAAAAEAQCEQAAAIAEACACAAAAI=</HashCode>
+      <FileName>LevelsActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.LoginActivity" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAEAAIAAABAAAEEACBBAAJIEBBAAQBAIAA=</HashCode>
+      <FileName>LoginActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.LoginTable" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>LoginTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.MainActivity" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAQAAAAIAAAAAgCAAgAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.MusicService" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>MusicService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.RegisterActivity" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAIAAEAAAAAACAAAAAAQBAAAAAAAAA=</HashCode>
+      <FileName>RegisterActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.ScoreBoardActivity" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAEAABBIAAAgAEUAAAAAAACgAIEABAgAAAAFAAQE=</HashCode>
+      <FileName>ScoreBoardActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.ScoreBoardTable" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAIAAEAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScoreBoardTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.Settings" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAIAACAAAABgCAIAAAAABACAAAAAAAAAAgCAAAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.Shot" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgYAAAAAAAAKAAAAAAAAYABgAAAAAAA=</HashCode>
+      <FileName>Shot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.Shots" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAARAAAAEAAAQAAAAAABAAAAAQAAACAgA=</HashCode>
+      <FileName>Shots.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.slant_asteroid" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYAAIgAAAAACAAAAAAAAAAAAQABAAEAAAAA=</HashCode>
+      <FileName>slant_asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.SpaceShip" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgQAAAAAAAAKAAAAAAAAYAAAAAACYAA=</HashCode>
+      <FileName>SpaceShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.Timer" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKEAAAFAAAEAAAIIAgAAAAAAQAAEAAAAAAI=</HashCode>
+      <FileName>Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boom_It.asteroid" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAYAAAgIAAAACBEAKAIAACAAAIABgAEACECA=</HashCode>
+      <FileName>asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

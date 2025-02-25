@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_bright"
+    android:layoutDirection="ltr"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="level 1"
+        android:textSize="30sp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/level_tv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="30sp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/username_tv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Won!"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:layout_marginLeft="30dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="81dp"
+            android:layout_height="76.0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fullstar"
+            android:id="@+id/star1"
+            />
+
+        <ImageButton
+            android:layout_width="81.5dp"
+            android:layout_height="76.0dp"
+            android:layout_marginTop="10dp"
+            android:clickable="false"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fullstar"
+            android:id="@+id/star2"
+            />
+
+        <ImageButton
+            android:layout_width="81dp"
+            android:layout_height="76.0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="false"
+            android:background="@drawable/emptystar"
+            android:id="@+id/star3"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score: "
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:id="@+id/score_tv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time: "
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:id="@+id/time_tv"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="71.0dp"
+            android:layout_height="58.0dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/homeicon"
+            android:backgroundTint="@android:color/black"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/home"
+            />
+
+        <ImageButton
+            android:layout_width="51.0dp"
+            android:layout_height="50.0dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/restart"
+            android:clickable="false"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/restart"
+        />
+
+        <ImageButton
+            android:layout_width="98.0dp"
+            android:layout_height="100.0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/next"
+            android:backgroundTint="@android:color/black"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/next"
+            />
+
+        </LinearLayout>
+
+</LinearLayout>

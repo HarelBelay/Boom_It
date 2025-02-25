@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--For all properties see: https://aka.ms/android-menu-resource-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/settings"
+		   android:showAsAction="never"
+		   android:title="settings"
+		   android:orderInCategory="100"
+		   android:actionViewClass="android.widget.SearchView"/>
+	<item android:id="@+id/instructions"
+			   android:showAsAction="never"
+			   android:title="instructions"
+			   android:orderInCategory="200"
+			   android:actionViewClass="android.widget.SearchView"/>
+
+</menu>
